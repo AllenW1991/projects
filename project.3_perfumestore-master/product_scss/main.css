@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-style: 24px;
+}
+
+h2 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  height: 38px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 9px;
+  height: 56px;
+}
+
+.menu i {
+  width: 24px;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #8d8d8d;
+}
+
+.banner li {
+  padding-right: 32px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: SF Pro Text, Regular;
+}
+
+.banner li i {
+  display: none;
+}
+
+.brand_menu {
+  height: 52px;
+  width: auto;
+  background: #916000;
+}
+
+.brand_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+footer .subscribe {
+  max-width: auto;
+  height: 100%;
+  position: relative;
+}
+
+footer .subscribe img {
+  width: 100%;
+}
+
+footer .subscribe_text {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+}
+
+footer .subscribe_text p {
+  height: 96px;
+  width: 350px;
+  color: #8d8d8d;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer .subscribe_text .subscribe_button {
+  height: 60px;
+  width: 350px;
+  background-color: #916000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+}
+
+footer .subscribe_text .subscribe_button button {
+  width: 131px;
+  background: #916000 0% 0% no-repeat padding-box;
+  border: 2px solid #916000;
+  border-radius: 0px 4px 4px 0px;
+  opacity: 1;
+  color: #ffffff;
+  padding-left: 27px;
+  cursor: pointer;
+}
+
+footer .subscribe_text .subscribe_button input {
+  outline: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #916000;
+  border-radius: 4px 0 0 4px;
+  opacity: 1;
+  color: #8d8d8d;
+  padding-left: 14px;
+}
+
+.copyright_banner {
+  background: #916000;
+  max-height: 80px;
+  width: auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright_banner img {
+  height: 38px;
+  width: 128px;
+  margin-right: 20px;
+}
+
+.copyright_banner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.copyright_banner ul li {
+  margin: 18px;
+}
+
+.copyright_banner .copyright {
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copyright_banner .copyright p {
+  padding: 13px;
+}
+/*# sourceMappingURL=main.css.map */

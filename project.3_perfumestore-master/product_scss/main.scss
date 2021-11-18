@@ -1,0 +1,140 @@
+@import "reset";
+
+body {
+    font-style: 24px;
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    height: 38px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9px;
+    height: 56px;
+    i {
+        width: 24px;
+    }
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    color: #8d8d8d;
+
+    li {
+        padding-right: 32px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 16px;
+        font-family: SF Pro Text, Regular;
+        i {
+            display: none;
+        }
+    }
+}
+
+.brand_menu {
+    height: 52px;
+    width: auto;
+    background: #916000;
+    ul {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    margin-top: 60px;
+    .subscribe {
+        max-width: auto;
+        height: 100%;
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+    .subscribe_text {
+        position: absolute;
+        left: 20%;
+        top: 60%;
+        p {
+            height: 96px;
+            width: 350px;
+            color: #8d8d8d;
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .subscribe_button {
+            height: 60px;
+            width: 350px;
+            background-color: #916000;
+            display: flex;
+            border-radius: 5px;
+            button {
+                width: 131px;
+                background: #916000 0% 0% no-repeat padding-box;
+                border: 2px solid #916000;
+                border-radius: 0px 4px 4px 0px;
+                opacity: 1;
+                color: #ffffff;
+                padding-left: 27px;
+                cursor: pointer;
+            }
+            input {
+                outline: none;
+                background: #ffffff 0% 0% no-repeat padding-box;
+                border: 2px solid #916000;
+                border-radius: 4px 0 0 4px;
+                opacity: 1;
+                color: #8d8d8d;
+                padding-left: 14px;
+            }
+        }
+    }
+}
+
+.copyright_banner {
+    background: #916000;
+    max-height: 80px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        height: 38px;
+        width: 128px;
+        margin-right: 20px;
+    }
+    ul {
+        display: flex;
+        li {
+            margin: 18px;
+        }
+    }
+    .copyright {
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            padding: 13px;
+        }
+    }
+}
